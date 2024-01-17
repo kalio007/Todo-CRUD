@@ -13,6 +13,7 @@ type todo struct {
 	Completed bool   `json:"completed"`
 }
 
+// CHORE: have the functions be a methods of the struct that hold the state
 var todos = []todo{
 	{ID: "1", Item: "Clean Room", Completed: true},
 	{ID: "2", Item: "Clean Room", Completed: true},
