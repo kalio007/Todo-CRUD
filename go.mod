@@ -1,4 +1,4 @@
-module todo-api
+module github.com/kalio007/Todo-CRUD
 
 go 1.20
 
